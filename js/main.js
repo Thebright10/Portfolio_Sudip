@@ -217,28 +217,44 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Visitor logging
-  function logVisitor() {
-  fetch("https://portfolio-backend.onrender.com/log-visitor", {
-    method: "POST"
+  // Call this function to log visitor
+function logVisitor(section = "", action = "") {
+  fetch("https://portfolio-backend-da4l.onrender.com/log-visitor", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      section: section, // which tab or page section
+      action: action,   // what action user did (click, open, etc.)
+      success: true
+    })
   })
   .then(res => res.json())
-  .then(data => console.log("Visitor logged:", data))
+  .then(data => {
+    console.log("Visitor logged:", data);
+  })
   .catch(err => console.error("Error logging visitor:", err));
 }
 
+// Example: unlock a tab and log it
+function unlockTab(tabName) {
+  document.querySelectorAll(".tab-content").forEach(tab => {
+    tab.style.display = "none";
+  });
 
-  function unlockTab(tabName) {
-  // Hide all tabs
-  document.querySelectorAll(".tab-content").forEach(tab => tab.style.display = "none");
+  const targetTab = document.getElementById(tabName);
+  if (targetTab) targetTab.style.display = "block";
 
-  // Show selected tab
-  document.getElementById(tabName).style.display = "block";
-
-  // Log visitor only for Family or Friends tabs
-  if(tabName === "family" || tabName === "friends") {
-    logVisitor();
+  // Log visitor for sensitive tabs
+  if (tabName === "family" || tabName === "friends") {
+    logVisitor(tabName, "tab_open");
   }
 }
+
+// Run visitor log on page load for general visit
+document.addEventListener("DOMContentLoaded", () => {
+  logVisitor("homepage", "visit");
 
 
   // Example: Automatically unlock a tab (optional)
