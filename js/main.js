@@ -218,18 +218,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Visitor logging
   function logVisitor() {
-    fetch("https://portfolio-backend.onrender.com/log-visitor", { method: "POST" })
-      .then(res => res.json())
-      .then(data => console.log("Visitor logged:", data))
-      .catch(err => console.error("Error logging visitor:", err));
-  }
+  fetch("https://portfolio-backend.onrender.com/log-visitor", {
+    method: "POST"
+  })
+  .then(res => res.json())
+  .then(data => console.log("Visitor logged:", data))
+  .catch(err => console.error("Error logging visitor:", err));
+}
+
 
   function unlockTab(tabName) {
-    document.querySelectorAll(".tab-content").forEach(tab => tab.style.display = "none");
-    document.getElementById(tabName).style.display = "block";
+  // Hide all tabs
+  document.querySelectorAll(".tab-content").forEach(tab => tab.style.display = "none");
 
-    if(tabName === "family" || tabName === "friends") logVisitor();
+  // Show selected tab
+  document.getElementById(tabName).style.display = "block";
+
+  // Log visitor only for Family or Friends tabs
+  if(tabName === "family" || tabName === "friends") {
+    logVisitor();
   }
+}
+
 
   // Example: Automatically unlock a tab (optional)
   // unlockTab("family");
