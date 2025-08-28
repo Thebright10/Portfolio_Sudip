@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visitor Log Test</title>
+</head>
+<body>
+  <h2>Click to Log Visitor</h2>
+  <button onclick="logVisitor('family')">Family 1</button>
+  <button onclick="logVisitor('friends')">Family 2</button>
+
+  <script>
+    async function logVisitor(section) {
+      try {
+        let response = await fetch("http://127.0.0.1:5000/log-visitor", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            section: section,
+            action: "button_click",
+            success: true
+          })
+        });
+
+        let result = await response.json();
+        console.log("Server response:", result);
+        alert("Logged: " + JSON.stringify(result));
+      } catch (err) {
+        console.error("Error:", err);
+      }
+    }
+  </script>
+</body>
+</html>

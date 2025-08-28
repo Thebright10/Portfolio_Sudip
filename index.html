@@ -512,9 +512,12 @@
 <!-- Tabs -->
 <div class="tabs text-center mb-5">
   <button class="tab-btn active" data-target="teachers">Teachers</button>
-  <button class="tab-btn" data-target="family">Family 1</button>
-  <button class="tab-btn" data-target="friends">Family 2</button>
+  <!-- locked-tab + data-pass attributes -->
+  <button class="tab-btn locked-tab" data-target="family" data-pass="1234">Family 1</button>
+  <button class="tab-btn locked-tab" data-target="friends" data-pass="5678">Family 2</button>
 </div>
+
+
 
 <!-- Teachers Section -->
 <div id="teachers" class="tab-content active teachers-bg">
@@ -612,7 +615,7 @@
         <p>Brings joy in my life ❤️</p>
         <div class="social-icons">
           <a href="#"><span class="icon-heart"></span></a>
-          <a href="#"><span class="icon-instagram"></span></a>
+          <a href="https://www.instagram.com/swarmi.sthaa_/"><span class="icon-instagram"></span></a>
         </div>
       </div>
     </div>
@@ -684,7 +687,7 @@
         <p>Freind 🫂</p>
         <div class="social-icons">
           <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/ritam_x_xavier/"><span class="icon-instagram"></span></a>
+          <a href="https://www.instagram.com/ritwiiiikaaaa/"><span class="icon-instagram"></span></a>
         </div>
       </div>
     </div>
@@ -696,7 +699,7 @@
         <p>Freind 🫂</p>
         <div class="social-icons">
           <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/debarjun.m/"><span class="icon-instagram"></span></a>
+          <a href="https://www.instagram.com/ritwiiiikaaaa/"><span class="icon-instagram"></span></a>
         </div>
       </div>
     </div>
@@ -708,7 +711,7 @@
         <p>Freind🫂</p>
         <div class="social-icons">
           <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/arindam.ghorui.399/"><span class="icon-instagram"></span></a>
+          <a href="https://www.instagram.com/ritwiiiikaaaa/"><span class="icon-instagram"></span></a>
         </div>
       </div>
     </div>
@@ -734,7 +737,42 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
     if(this.dataset.target === "friends") this.style.boxShadow = "0 0 20px red";
   });
 });
+
+// JS for switching tabs with glow color + lock
+document.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", function() {
+    const targetId = this.dataset.target;
+
+    // 🔒 If tab is locked, ask password
+    if(this.classList.contains("locked-tab")){
+      const correct = this.dataset.pass;
+      const entered = prompt("🔑 Enter password for " + this.textContent + ":");
+
+      if(entered !== correct){
+        alert("❌ Wrong password! Access denied.");
+        return; // stop if password incorrect
+      }
+    }
+
+    // remove active classes
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-content").forEach(tc => tc.classList.remove("active"));
+
+    // add active to clicked tab + content
+    this.classList.add("active");
+    document.getElementById(targetId).classList.add("active");
+
+    // glow color
+    if(targetId === "teachers") this.style.boxShadow = "0 0 20px gold";
+    if(targetId === "family") this.style.boxShadow = "0 0 20px #00ff88";
+    if(targetId === "friends") this.style.boxShadow = "0 0 20px red";
+  });
+});
 </script>
+
+
+
+
 <!-- ====== END: Teachers / Family / Friends Section ====== -->
 
 		<br>
