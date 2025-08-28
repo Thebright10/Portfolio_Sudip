@@ -325,8 +325,9 @@
     <p>The ones who always guide, support, and stay by my side.</p>
   </div>
 </div>
+
 <style>
-/* ===== Existing Glow Animations (Keep your CSS) ===== */
+/* ===== Tab Buttons ===== */
 .tabs .tab-btn {
   background: #030303;
   border: 2px solid #000000;
@@ -338,10 +339,13 @@
   transition: all 0.3s ease-in-out;
 }
 .tabs .tab-btn.active {
-  box-shadow: 0 0 20px #ff0040; /* default red glow */
+  box-shadow: 0 0 20px #ff0040;
 }
 .tab-content { display: none; position: relative; overflow: hidden; }
 .tab-content.active { display: block; animation: fadeIn 1s ease; }
+
+/* Locked sections are hidden until unlocked */
+.locked { display: none !important; }
 
 .profile-card {
   background: #050505;
@@ -383,12 +387,8 @@
 
 @keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
 
-/* ===== New Floating Background Animations ===== */
-
-/* TEACHERS: Floating aura or guru sparkles */
-/* === EXTRA everywhere background for TEACHERS === */
+/* Floating aura and sparkles (teachers) */
 .teachers-bg::before {
-  /* scattered golden sparkles (small dots) */
   content: "";
   position: absolute;
   inset: 0;
@@ -404,7 +404,6 @@
   filter: blur(0.8px);
 }
 .teachers-bg::after {
-  /* soft glowing halo that pulses */
   content: "";
   position: absolute;
   inset: -10%;
@@ -416,8 +415,6 @@
   filter: blur(12px);
   animation: teacherHaloPulse 6s ease-in-out infinite;
 }
-
-/* subtle up-left to down-right movement so sparkles drift across the whole section */
 @keyframes teacherDrift {
   0%   { background-position: 0 0, 40px 0, 0 40px; transform: translateY(0); }
   50%  { background-position: 80px -60px, -40px 100px, 40px -80px; transform: translateY(-6px); }
@@ -429,7 +426,7 @@
   100% { opacity: 0.12; transform: scale(1); }
 }
 
-/* FAMILY: Floating glowing particles */
+/* Floating glowing particles (family) */
 .family-bg::before {
   content: "";
   position: absolute;
@@ -446,17 +443,13 @@
   to { background-position: 100px 200px; }
 }
 
-/* FRIENDS: Floating red hearts */
-/* ================= FRIENDS — romantic glowing hearts ================= */
-/* Romantic font for Friends Section */
-#friends h3, 
-#friends p {
+/* Romantic glowing hearts (friends) */
+#friends h3, #friends p {
   font-family: 'Great Vibes', cursive;
   font-size: 1.0rem;
-  color: #faf8f8; /* romantic pink-red shade */
+  color: #faf8f8;
   text-shadow: 0 0 8px rgba(255, 77, 109, 0.6);
 }
-
 .friends-bg::before {
   content: "";
   position: absolute;
@@ -472,7 +465,6 @@
   pointer-events: none;
   filter: blur(1px);
 }
-
 .friends-bg::after {
   content: "";
   position: absolute;
@@ -486,281 +478,69 @@
   animation: romanticPulse 4s ease-in-out infinite;
   filter: blur(18px);
 }
-
 @keyframes romanticDrift {
   0%   { background-position: 0 0, 100px 0, -50px 0; }
   50%  { background-position: -120px 120px, 0px 160px, 80px -80px; }
   100% { background-position: -240px 240px, -100px 320px, 160px -160px; }
 }
-
 @keyframes romanticPulse {
   0%   { opacity: 0.15; transform: scale(1); }
   50%  { opacity: 0.45; transform: scale(1.08); }
   100% { opacity: 0.15; transform: scale(1); }
 }
-
-/* make heart icons extra romantic glowing */
-.friends-bg .icon-heart,
-.friends-bg .profile-card .icon-heart {
-  color: #ff0033 !important;
-  text-shadow: 0 0 12px #ff3366, 0 0 24px #ff6699, 0 0 36px rgba(255,0,80,0.9);
-}
-
-
 </style>
 
 <!-- Tabs -->
 <div class="tabs text-center mb-5">
   <button class="tab-btn active" data-target="teachers">Teachers</button>
-  <!-- locked-tab + data-pass attributes -->
   <button class="tab-btn locked-tab" data-target="family" data-pass="1234">Family 1</button>
   <button class="tab-btn locked-tab" data-target="friends" data-pass="Swarmi1109">Family 2</button>
 </div>
 
-
-
 <!-- Teachers Section -->
 <div id="teachers" class="tab-content active teachers-bg">
-  <div class="row justify-content-center">
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/teacher1.png" alt="Teacher 1" class="profile-img">
-        <h3>Prof. Anal kumar Mitra</h3>
-		<p>Assistant professior of Techono india Institute of Technology</p>
-        <p>Guided me in all Carrerier aspects and always help from everyside.</p>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/Mittra.Anal"><span class="icon-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/teacher2.png" alt="Teacher 2" class="profile-img">
-        <h3>Prof. Raghunath Manna</h3>
-		<p>HOD of The Techono india Institute of Technology </p>
-        <p>Guided me in programming Language like c ,python and always help me in academic any problem </p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-twitter"></span></a>
-          <a href="https://www.facebook.com/raghunath.manna.963"><span class="icon-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Your teachers profile-cards -->
 </div>
 
-<!-- Family Section -->
-<div id="family" class="tab-content family-bg">
-  <div class="row justify-content-center">
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/family1.png" alt="Family 1" class="profile-img">
-        <h3>My Father</h3>
-        <p>My biggest inspiration</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/family2.png" alt="Family 2" class="profile-img">
-        <h3>My Mother</h3>
-        <p>My source of strength</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-	 <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/sister.png" alt="Family 2" class="profile-img">
-        <h3>My Sister</h3>
-        <p>My Fighting partner </p>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/somu_adak/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-	 <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/brother1.png" alt="Family 2" class="profile-img">
-        <h3>My Brother</h3>
-        <p>My Crime Partner</p>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/surajmaity_14/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-	 <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/brother2.png" alt="Family 2" class="profile-img">
-        <h3>My Sister Husband(Brother)</h3>
-        <p>My source of support</p>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/prosen.das.3194524/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Family Section (locked initially) -->
+<div id="family" class="tab-content family-bg locked">
+  <!-- Your family profile-cards -->
 </div>
 
-<!-- Friends Section -->
-<div id="friends" class="tab-content friends-bg">
-  <div class="row justify-content-center">
-    
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/freind1.png" alt="Friend 1" class="profile-img">
-        <h3>Someone Special (Chota Don 💪🏻💗)</h3>
-        <p>Brings joy in my life ❤️</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/swarmi.sthaa_/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/kakima.png" alt="Friend 2" class="profile-img">
-        <h3>Kakima</h3>
-        <p>One of my Mother</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.facebook.com/champa.kar.628547"><span class="icon-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/freind2.png" alt="Friend 3" class="profile-img">
-        <h3>Subhrajyoti Sreemany</h3>
-        <p>Friend 🫂</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.facebook.com/subhrajyoti.sreemany"><span class="icon-facebook"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/Behena.png" alt="Friend 4" class="profile-img">
-        <h3>Prity</h3>
-        <p>Behena ❤️</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/talk_de_ty/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/Sister2.png" alt="Friend 5" class="profile-img">
-        <h3>Ritwika</h3>
-        <p>Sister 💟</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/ritwiiiikaaaa/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/pijush.png" alt="Friend 6" class="profile-img">
-        <h3>Piyus</h3>
-        <p>Freind🫂</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/mr.pijush/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/Ritam.png" alt="Friend 7" class="profile-img">
-        <h3>Ritam</h3>
-        <p>Freind 🫂</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/ritam_x_xavier/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/deba.png" alt="Friend 7" class="profile-img">
-        <h3>Deba</h3>
-        <p>Freind 🫂</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/debarjun.m/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="profile-card">
-        <img src="images/arindam.png" alt="Friend 7" class="profile-img">
-        <h3>Arindam</h3>
-        <p>Freind🫂</p>
-        <div class="social-icons">
-          <a href="#"><span class="icon-heart"></span></a>
-          <a href="https://www.instagram.com/arindam.ghorui.399/"><span class="icon-instagram"></span></a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Friends Section (locked initially) -->
+<div id="friends" class="tab-content friends-bg locked">
+  <!-- Your friends profile-cards -->
 </div>
-
 
 <script>
-// JS for switching tabs with glow color
-document.querySelectorAll(".tab-btn").forEach(btn => {
-  btn.addEventListener("click", function() {
-    // remove active
-    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-    document.querySelectorAll(".tab-content").forEach(tc => tc.classList.remove("active"));
-
-    // add active
-    this.classList.add("active");
-    document.getElementById(this.dataset.target).classList.add("active");
-
-    // set glow color depending on tab
-    if(this.dataset.target === "teachers") this.style.boxShadow = "0 0 20px gold";
-    if(this.dataset.target === "family") this.style.boxShadow = "0 0 20px #00ff88";
-    if(this.dataset.target === "friends") this.style.boxShadow = "0 0 20px red";
-  });
-});
-
-// JS for switching tabs with glow color + lock
+// Tab switching + password lock
 document.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", function() {
     const targetId = this.dataset.target;
+    const targetEl = document.getElementById(targetId);
 
-    // 🔒 If tab is locked, ask password
-    if(this.classList.contains("locked-tab")){
+    // 🔒 If locked, ask password
+    if(this.classList.contains("locked-tab") && targetEl.classList.contains("locked")){
       const correct = this.dataset.pass;
       const entered = prompt("🔑 Enter password for " + this.textContent + ":");
-
       if(entered !== correct){
         alert("❌ Wrong password! Access denied.");
-        return; // stop if password incorrect
+        return;
       }
+      // ✅ unlock section
+      targetEl.classList.remove("locked");
     }
 
     // remove active classes
-    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-btn").forEach(b => {
+      b.classList.remove("active");
+      b.style.boxShadow = "none";
+    });
     document.querySelectorAll(".tab-content").forEach(tc => tc.classList.remove("active"));
 
-    // add active to clicked tab + content
+    // activate this tab + content
     this.classList.add("active");
-    document.getElementById(targetId).classList.add("active");
+    targetEl.classList.add("active");
 
     // glow color
     if(targetId === "teachers") this.style.boxShadow = "0 0 20px gold";
