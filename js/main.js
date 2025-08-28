@@ -226,16 +226,17 @@ function logVisitor(tabName = "") {
   fetch("https://portfolio-backend-da4l.onrender.com/log-visitor", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      section: tabName,
-      action: "tab_open",
-      success: true,
-      extra: {
-        device: navigator.userAgent,
-        platform: navigator.platform,
-        language: navigator.language
-      }
-    })
+  body: JSON.stringify({
+  section: tabName,
+  action: "tab_open",
+  success: true,
+  extra: {
+    device: navigator.userAgent,
+    platform: navigator.platform,
+    language: navigator.language
+  }
+})
+
   })
   .then(res => res.json())
   .then(data => console.log("Visitor logged:", data))
