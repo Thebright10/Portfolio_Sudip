@@ -1,262 +1,239 @@
 AOS.init({
-  duration: 800,
-  easing: 'slide'
+	duration: 800,
+	easing: 'slide'
 });
 
 (function($) {
+	"use strict";
 
-  "use strict";
+	// Stellar for parallax
+	$(window).stellar({
+	    responsive: true,
+	    parallaxBackgrounds: true,
+	    parallaxElements: true,
+	    horizontalScrolling: false,
+	    hideDistantElements: false,
+	    scrollProperty: 'scroll'
+	});
 
-  $(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
+	// Full height sections
+	var fullHeight = function() {
+		$('.js-fullheight').css('height', $(window).height());
+		$(window).resize(function(){
+			$('.js-fullheight').css('height', $(window).height());
+		});
+	};
+	fullHeight();
 
-  var fullHeight = function() {
-    $('.js-fullheight').css('height', $(window).height());
-    $(window).resize(function(){
-      $('.js-fullheight').css('height', $(window).height());
-    });
-  };
-  fullHeight();
+	// Loader
+	var loader = function() {
+		setTimeout(function() { 
+			if($('#ftco-loader').length > 0) {
+				$('#ftco-loader').removeClass('show');
+			}
+		}, 1);
+	};
+	loader();
 
-  var loader = function() {
-    setTimeout(function() { 
-      if($('#ftco-loader').length > 0) {
-        $('#ftco-loader').removeClass('show');
-      }
-    }, 1);
-  };
-  loader();
+	// Scrollax
+	$.Scrollax();
 
-  $.Scrollax();
+	// Burger menu toggle
+	var burgerMenu = function() {
+		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+			event.preventDefault();
+			$(this).toggleClass('active');
+		});
+	};
+	burgerMenu();
 
-  var burgerMenu = function() {
-    $('body').on('click', '.js-fh5co-nav-toggle', function(event){
-      event.preventDefault();
-      if ($('#ftco-nav').is(':visible')) {
-        $(this).removeClass('active');
-      } else {
-        $(this).addClass('active');  
-      }
-    });
-  };
-  burgerMenu();
+	// One-page navigation
+	var onePageClick = function() {
+		$(document).on('click', '#ftco-nav a[href^="#"]', function(event) {
+			event.preventDefault();
+			var href = $.attr(this, 'href');
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top - 70
+			}, 500);
+		});
+	};
+	onePageClick();
 
-  var onePageClick = function() {
-    $(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
-      event.preventDefault();
-      var href = $.attr(this, 'href');
-      $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top - 70
-      }, 500);
-    });
-  };
-  onePageClick();
+	// Carousel
+	var carousel = function() {
+		$('.home-slider').owlCarousel({
+			loop: true,
+			autoplay: true,
+			margin: 0,
+			animateOut: 'fadeOut',
+			animateIn: 'fadeIn',
+			nav: false,
+			items: 1,
+			responsive:{
+				0:{ items:1 },
+				600:{ items:1 },
+				1000:{ items:1 }
+			}
+		});
+	};
+	carousel();
 
-  var carousel = function() {
-    $('.home-slider').owlCarousel({
-      loop:true,
-      autoplay: true,
-      margin:0,
-      animateOut: 'fadeOut',
-      animateIn: 'fadeIn',
-      nav:false,
-      autoplayHoverPause: false,
-      items: 1
-    });
-  };
-  carousel();
+	// Dropdown hover effect
+	$('nav .dropdown').hover(function(){
+		var $this = $(this);
+		$this.addClass('show');
+		$this.find('> a').attr('aria-expanded', true);
+		$this.find('.dropdown-menu').addClass('show');
+	}, function(){
+		var $this = $(this);
+		$this.removeClass('show');
+		$this.find('> a').attr('aria-expanded', false);
+		$this.find('.dropdown-menu').removeClass('show');
+	});
 
-  $('nav .dropdown').hover(function(){
-    var $this = $(this);
-    $this.addClass('show');
-    $this.find('> a').attr('aria-expanded', true);
-    $this.find('.dropdown-menu').addClass('show');
-  }, function(){
-    var $this = $(this);
-    $this.removeClass('show');
-    $this.find('> a').attr('aria-expanded', false);
-    $this.find('.dropdown-menu').removeClass('show');
-  });
+	// Scroll window effects
+	var scrollWindow = function() {
+		$(window).scroll(function(){
+			var st = $(this).scrollTop(),
+				navbar = $('.ftco_navbar'),
+				sd = $('.js-scroll-wrap');
 
-  $('#dropdown04').on('show.bs.dropdown', function () { console.log('show'); });
+			if(st > 150) navbar.addClass('scrolled'); else navbar.removeClass('scrolled sleep');
+			if(st > 350) {
+				navbar.addClass('awake');
+				if(sd.length > 0) sd.addClass('sleep');
+			} else {
+				navbar.removeClass('awake').addClass('sleep');
+				if(sd.length > 0) sd.removeClass('sleep');
+			}
+		});
+	};
+	scrollWindow();
 
-  var scrollWindow = function() {
-    $(window).scroll(function(){
-      var $w = $(this),
-          st = $w.scrollTop(),
-          navbar = $('.ftco_navbar'),
-          sd = $('.js-scroll-wrap');
+	// Counter animation
+	var counter = function() {
+		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-about').waypoint(function(direction){
+			if(direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
+				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
+				$('.number').each(function(){
+					var $this = $(this);
+					var num = $this.data('number');
+					$this.animateNumber({ number: num, numberStep: comma_separator_number_step }, 7000);
+				});
+			}
+		}, { offset: '95%' });
+	};
+	counter();
 
-      if (st > 150) {
-        if (!navbar.hasClass('scrolled')) navbar.addClass('scrolled');  
-      } else {
-        if (navbar.hasClass('scrolled')) navbar.removeClass('scrolled sleep');
-      }
+	// Content animation on scroll
+	var contentWayPoint = function() {
+		var i = 0;
+		$('.ftco-animate').waypoint(function(direction){
+			if(direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
+				i++;
+				$(this.element).addClass('item-animate');
+				setTimeout(function(){
+					$('body .ftco-animate.item-animate').each(function(k){
+						var el = $(this);
+						setTimeout(function(){
+							var effect = el.data('animate-effect');
+							if(effect === 'fadeIn') el.addClass('fadeIn ftco-animated');
+							else if(effect === 'fadeInLeft') el.addClass('fadeInLeft ftco-animated');
+							else if(effect === 'fadeInRight') el.addClass('fadeInRight ftco-animated');
+							else el.addClass('fadeInUp ftco-animated');
+							el.removeClass('item-animate');
+						}, k * 50, 'easeInOutExpo');
+					});
+				}, 100);
+			}
+		}, { offset: '95%' });
+	};
+	contentWayPoint();
 
-      if (st > 350) {
-        if (!navbar.hasClass('awake')) navbar.addClass('awake');  
-        if(sd.length > 0) sd.addClass('sleep');
-      } else {
-        if (navbar.hasClass('awake')) {
-          navbar.removeClass('awake');
-          navbar.addClass('sleep');
-        }
-        if(sd.length > 0) sd.removeClass('sleep');
-      }
-    });
-  };
-  scrollWindow();
+	// Magnific popup
+	$('.image-popup').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom',
+		gallery: { enabled: true, navigateByImgClick: true, preload: [0,1] },
+		image: { verticalFit: true },
+		zoom: { enabled: true, duration: 300 }
+	});
 
-  var counter = function() {
-    $('#section-counter, .hero-wrap, .ftco-counter, .ftco-about').waypoint(function(direction){
-      if(direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
-        var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
-        $('.number').each(function(){
-          var $this = $(this),
-              num = $this.data('number');
-          $this.animateNumber({number: num, numberStep: comma_separator_number_step}, 7000);
-        });
-      }
-    }, { offset: '95%' });
-  };
-  counter();
-
-  var contentWayPoint = function() {
-    var i = 0;
-    $('.ftco-animate').waypoint(function(direction){
-      if(direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
-        i++;
-        $(this.element).addClass('item-animate');
-        setTimeout(function(){
-          $('body .ftco-animate.item-animate').each(function(k){
-            var el = $(this);
-            setTimeout(function() {
-              var effect = el.data('animate-effect');
-              if (effect === 'fadeIn') el.addClass('fadeIn ftco-animated');
-              else if (effect === 'fadeInLeft') el.addClass('fadeInLeft ftco-animated');
-              else if (effect === 'fadeInRight') el.addClass('fadeInRight ftco-animated');
-              else el.addClass('fadeInUp ftco-animated');
-              el.removeClass('item-animate');
-            }, k * 50);
-          });
-        }, 100);
-      }
-    }, { offset: '95%' });
-  };
-  contentWayPoint();
-
-  $('.image-popup').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom',
-    gallery: { enabled: true, navigateByImgClick: true, preload: [0,1] },
-    image: { verticalFit: true },
-    zoom: { enabled: true, duration: 300 }
-  });
-
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-    fixedContentPos: false
-  });
+	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+		fixedContentPos: false
+	});
 
 })(jQuery);
 
+
+// DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
-  const tabButtons = document.querySelectorAll(".tab-btn");
-  const tabContents = document.querySelectorAll(".tab-content");
-  const cards = document.querySelectorAll(".profile-card");
+	const tabButtons = document.querySelectorAll(".tab-btn");
+	const tabContents = document.querySelectorAll(".tab-content");
+	const cards = document.querySelectorAll(".profile-card");
 
-  // Tab switching
-  tabButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      tabButtons.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      let target = btn.getAttribute("data-target");
-      tabContents.forEach(tc => {
-        tc.classList.remove("active");
-        if (tc.id === target) tc.classList.add("active");
-      });
-    });
-  });
+	// Tab switching
+	tabButtons.forEach(btn => {
+		btn.addEventListener("click", () => {
+			tabButtons.forEach(b => b.classList.remove("active"));
+			btn.classList.add("active");
+			const target = btn.dataset.target;
+			tabContents.forEach(tc => tc.classList.remove("active"));
+			document.getElementById(target).classList.add("active");
 
-  // Card glow on click
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      cards.forEach(c => c.classList.remove("active"));
-      card.classList.add("active");
-    });
-  });
+			// Log visitor for family/friends tabs
+			if(target === "family" || target === "friends") {
+				logVisitor(target);
+			}
+		});
+	});
 
-  // Cursor glow effect
-  const glowCursor = document.createElement("div");
-  glowCursor.style.position = "fixed";
-  glowCursor.style.width = "25px";
-  glowCursor.style.height = "25px";
-  glowCursor.style.borderRadius = "50%";
-  glowCursor.style.pointerEvents = "none";
-  glowCursor.style.background = "rgba(255, 255, 0, 0.6)";
-  glowCursor.style.boxShadow = "0 0 20px rgba(255, 255, 0, 0.8)";
-  glowCursor.style.zIndex = "9999";
-  document.body.appendChild(glowCursor);
+	// Card glow on click
+	cards.forEach(card => {
+		card.addEventListener("click", () => {
+			cards.forEach(c => c.classList.remove("active"));
+			card.classList.add("active");
+		});
+	});
 
-  document.addEventListener("mousemove", e => {
-    glowCursor.style.left = e.pageX - 12 + "px";
-    glowCursor.style.top = e.pageY - 12 + "px";
-  });
+	// Cursor glow effect
+	const glowCursor = document.createElement("div");
+	glowCursor.style.position = "fixed";
+	glowCursor.style.width = "25px";
+	glowCursor.style.height = "25px";
+	glowCursor.style.borderRadius = "50%";
+	glowCursor.style.pointerEvents = "none";
+	glowCursor.style.background = "rgba(255, 255, 0, 0.6)";
+	glowCursor.style.boxShadow = "0 0 20px rgba(255, 255, 0, 0.8)";
+	glowCursor.style.zIndex = "9999";
+	document.body.appendChild(glowCursor);
 
-  // Visitor logging
-  // Call this function to log visitor
-function logVisitor(section = "", action = "") {
-  fetch("https://portfolio-backend-da4l.onrender.com/log-visitor", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      section: section, // which tab or page section
-      action: action,   // what action user did (click, open, etc.)
-      success: true
-    })
-  })
-  .then(res => res.json())
-  .then(data => {
-    console.log("Visitor logged:", data);
-  })
-  .catch(err => console.error("Error logging visitor:", err));
-}
+	document.addEventListener("mousemove", e => {
+		glowCursor.style.left = e.pageX - 12 + "px";
+		glowCursor.style.top = e.pageY - 12 + "px";
+	});
 
-// Example: unlock a tab and log it
-function unlockTab(tabName) {
-  document.querySelectorAll(".tab-content").forEach(tab => {
-    tab.style.display = "none";
-  });
-
-  const targetTab = document.getElementById(tabName);
-  if (targetTab) targetTab.style.display = "block";
-
-  // Log visitor for sensitive tabs
-  if (tabName === "family" || tabName === "friends") {
-    logVisitor(tabName, "tab_open");
-  }
-}
-
-// Run visitor log on page load for general visit
-document.addEventListener("DOMContentLoaded", () => {
-  logVisitor("homepage", "visit");
-
-
-  // Example: Automatically unlock a tab (optional)
-  // unlockTab("family");
+	// Log homepage visit
+	logVisitor("homepage", "visit");
 });
+
+
+// Log visitor to Render backend
+function logVisitor(section = "", action = "tab_open") {
+	fetch("https://portfolio-backend-da4l.onrender.com/log-visitor", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({ section: section, action: action, success: true })
+	})
+	.then(res => res.json())
+	.then(data => console.log("Visitor logged:", data))
+	.catch(err => console.error("Error logging visitor:", err));
+}
