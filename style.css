@@ -1132,6 +1132,48 @@ a {
   color: var(--accent);
 }
 
+.project-badge-live {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
+}
+
+.project-links-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-cta-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.project-cta-ghost:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+  background: var(--surface-hover);
+  gap: 12px;
+}
+
 /* Non-featured project cards */
 .project-card:not(.project-featured) {
   display: grid;
