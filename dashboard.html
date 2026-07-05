@@ -109,15 +109,17 @@
     overflow:hidden;
   }
   .entry{
-    display:grid;
-    grid-template-columns:100px 1fr auto;
-    gap:16px;
-    align-items:center;
     padding:14px 18px;
     border-bottom:1px solid var(--panel-border);
     font-size:14px;
   }
   .entry:last-child{border-bottom:none;}
+  .entry-row{
+    display:grid;
+    grid-template-columns:100px 1fr auto;
+    gap:16px;
+    align-items:center;
+  }
   .entry .date{
     font-family:'JetBrains Mono',monospace;
     font-size:11px;
@@ -125,6 +127,32 @@
   }
   .entry .title{font-weight:500;}
   .entry .company{color:var(--muted);font-size:13px;}
+  .entry-actions{display:flex;gap:8px;align-items:center;}
+  .toggle-btn, .copy-btn{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    background:transparent;
+    border:1px solid var(--panel-border);
+    color:var(--muted);
+    border-radius:6px;
+    padding:6px 10px;
+    cursor:pointer;
+  }
+  .toggle-btn:hover, .copy-btn:hover{border-color:var(--amber);color:var(--amber);}
+  .draft-body{
+    display:none;
+    margin-top:12px;
+    background:#0d1424;
+    border:1px solid var(--panel-border);
+    border-radius:8px;
+    padding:14px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:12.5px;
+    line-height:1.6;
+    white-space:pre-wrap;
+    color:#c7cedd;
+  }
+  .draft-body.open{display:block;}
   .badge{
     font-family:'JetBrains Mono',monospace;
     font-size:10px;
@@ -135,7 +163,7 @@
     letter-spacing:0.04em;
   }
   .badge.gmail_draft{background:#6bcf7f22;color:var(--green);}
-  .badge.text_draft, .badge.text_draft_fallback{background:#e8a33d22;color:var(--amber);}
+  .badge.text_draft{background:#e8a33d22;color:var(--amber);}
   .empty{
     padding:40px 20px;
     text-align:center;
@@ -198,8 +226,7 @@
 
   const badgeLabel = {
     gmail_draft: "Gmail draft",
-    text_draft: "Text draft",
-    text_draft_fallback: "Text draft",
+    text_draft: "Copy & apply",
   };
 
   fetch(dataUrl, {cache: "no-store"})
@@ -230,18 +257,50 @@
         logList.innerHTML = '<div class="empty">No matches yet — check back after the next scan.</div>';
         return;
       }
-      logList.innerHTML = data.recent_matches.map(job => `
-        <a class="joblink" href="${job.url}" target="_blank" rel="noopener">
-          <div class="entry">
+
+      logList.innerHTML = data.recent_matches.map((job, i) => {
+        const hasDraft = job.action === "text_draft" && job.draft_body;
+        const statusNote = job.action === "gmail_draft"
+          ? `Saved to Gmail Drafts (${job.contact_email || ""})`
+          : "No public HR email — copy the text below into the application form";
+
+        return `
+        <div class="entry">
+          <div class="entry-row">
             <div class="date">${new Date(job.date).toLocaleDateString()}</div>
             <div>
               <div class="title">${job.title}</div>
               <div class="company">${job.company} · ${job.source}</div>
             </div>
-            <div class="badge ${job.action}">${badgeLabel[job.action] || job.action}</div>
+            <div class="entry-actions">
+              <div class="badge ${job.action}">${badgeLabel[job.action] || job.action}</div>
+              <a class="toggle-btn" href="${job.url}" target="_blank" rel="noopener">Open job ↗</a>
+              ${hasDraft ? `<button class="toggle-btn" onclick="toggleDraft(${i})">View draft</button>` : ""}
+            </div>
           </div>
-        </a>
-      `).join("");
+          ${hasDraft ? `
+          <div class="draft-body" id="draft-${i}">
+            <button class="copy-btn" style="float:right;margin-bottom:8px;" onclick="copyDraft(${i})">Copy text</button>
+            <div style="clear:both"></div>
+            <strong>Subject:</strong> ${job.subject}<br><br>${job.draft_body.replace(/\n/g,'<br>')}
+          </div>` : ""}
+        </div>
+      `;
+      }).join("");
+
+      window.toggleDraft = (i) => {
+        document.getElementById(`draft-${i}`).classList.toggle("open");
+      };
+      window.copyDraft = (i) => {
+        const job = data.recent_matches[i];
+        const text = `Subject: ${job.subject}\n\n${job.draft_body}`;
+        navigator.clipboard.writeText(text).then(() => {
+          const btn = event.target;
+          const old = btn.textContent;
+          btn.textContent = "Copied!";
+          setTimeout(() => btn.textContent = old, 1500);
+        });
+      };
     })
     .catch(err => {
       document.getElementById("statusText").textContent = "No data yet";
