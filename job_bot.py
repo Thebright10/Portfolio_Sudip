@@ -20,41 +20,50 @@ RESUME_URL = "https://thebright10.github.io/Portfolio_Sudip/Sudip_Kumar_Adak_Res
 GMAIL_USER = os.environ.get("GMAIL_USER")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 
-# Using a standard location for testing (can be expanded to others)
-LOCATION = "Pune, India"
-SEARCH_TERM = "Software Developer"
-NUM_JOBS_TO_FETCH = 5 # Keep small to avoid rate limits on GitHub Actions
+# Target cities for fresher jobs
+TARGET_CITIES = ["Pune, India", "Mumbai, India", "Bangalore, India", "Chennai, India", "Hyderabad, India", "Kolkata, India", "Ahmedabad, India"]
+SEARCH_TERM = "Software Developer Fresher"
+NUM_JOBS_PER_CITY = 2 # Keep small to avoid rate limits
 
 def fetch_jobs():
-    print(f"Scraping jobs for '{SEARCH_TERM}' in '{LOCATION}'...")
-    try:
-        jobs_df = scrape_jobs(
-            site_name=["indeed", "linkedin", "glassdoor"],
-            search_term=SEARCH_TERM,
-            location=LOCATION,
-            results_wanted=NUM_JOBS_TO_FETCH,
-            country_indeed='India'
-        )
-        
-        jobs_list = []
-        if not jobs_df.empty:
-            for _, row in jobs_df.iterrows():
-                jobs_list.append({
-                    "title": row.get('title', 'Software Developer'),
-                    "company": row.get('company', 'Unknown Company'),
-                    "location": row.get('location', LOCATION),
-                    "url": row.get('job_url', ''),
-                    "description": str(row.get('description', ''))[:200] + "..."
-                })
-        return jobs_list
-    except Exception as e:
-        print(f"Error scraping jobs: {e}")
-        # Fallback simulated jobs if scraper fails (e.g., due to IP block on GitHub Actions)
+    import random
+    # Pick 2 random cities each run so we don't scrape too much at once and get blocked
+    cities_to_search = random.sample(TARGET_CITIES, 2)
+    jobs_list = []
+    
+    for city in cities_to_search:
+        print(f"Scraping jobs for '{SEARCH_TERM}' in '{city}'...")
+        try:
+            jobs_df = scrape_jobs(
+                site_name=["indeed", "linkedin", "glassdoor"],
+                search_term=SEARCH_TERM,
+                location=city,
+                results_wanted=NUM_JOBS_PER_CITY,
+                country_indeed='India'
+            )
+            
+            if not jobs_df.empty:
+                for _, row in jobs_df.iterrows():
+                    jobs_list.append({
+                        "title": row.get('title', 'Software Developer'),
+                        "company": row.get('company', 'Unknown Company'),
+                        "location": row.get('location', city),
+                        "url": row.get('job_url', ''),
+                        "description": str(row.get('description', ''))[:200] + "..."
+                    })
+        except Exception as e:
+            print(f"Error scraping jobs in {city}: {e}")
+            
+    # Fallback if entirely blocked or no jobs found
+    if not jobs_list:
+        print("No jobs found via scraper (possibly rate limited). Using fallback generic fresher jobs.")
         return [
-            {"title": "Junior Python Developer", "company": "Tech Mahindra", "location": "Pune, Maharashtra", "url": "#"},
-            {"title": "Frontend Engineer", "company": "TCS Digital", "location": "Bangalore, Karnataka", "url": "#"},
+            {"title": "Junior Software Engineer (Fresher)", "company": "Tech Mahindra", "location": "Pune, Maharashtra", "url": "#"},
+            {"title": "Entry Level Frontend Developer", "company": "TCS Digital", "location": "Bangalore, Karnataka", "url": "#"},
             {"title": "Data Analyst Intern", "company": "Mu Sigma", "location": "Hyderabad, Telangana", "url": "#"}
         ]
+        
+    return jobs_list
 
 def save_draft_to_gmail(job):
     """
