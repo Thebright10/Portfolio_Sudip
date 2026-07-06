@@ -1,14 +1,77 @@
 {
-    "last_updated": "2024-01-01 00:00:00",
-    "total_jobs_today": 0,
+    "last_updated": "2026-07-06 18:26:29",
+    "total_jobs_today": 10,
     "total_drafts_saved": 0,
     "jobs": [
         {
-            "title": "Welcome to your Job Bot",
-            "company": "System Initialization",
-            "location": "Waiting for first GitHub Action run...",
-            "url": "#",
-            "status": "Pending"
+            "title": "Lead / Sr. Generative AI Developer with AWS",
+            "company": "EPAM Systems",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=6fdf9d7395a94ea6",
+            "status": "Simulated"
+        },
+        {
+            "title": "Systems Architect - Cloud AIOps",
+            "company": "EPAM Systems",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=2daf592b4c4ea07c",
+            "status": "Simulated"
+        },
+        {
+            "title": "Lead / Sr. AWS Connect Developer with Salesforce Service Cloud",
+            "company": "EPAM Systems",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=630bd45c85c514a0",
+            "status": "Simulated"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=3d6ae60d790a20ee",
+            "status": "Simulated"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=2b45427fb850a436",
+            "status": "Simulated"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "hackajob",
+            "location": "Pune Division, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4426965551",
+            "status": "Simulated"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "hackajob",
+            "location": "Pune Division, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4426967569",
+            "status": "Simulated"
+        },
+        {
+            "title": "Software Engineer, Backend",
+            "company": "DoorDash",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4084261319",
+            "status": "Simulated"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "hackajob",
+            "location": "Pune Division, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4419067740",
+            "status": "Simulated"
+        },
+        {
+            "title": "Senior Front-end Developer",
+            "company": "Easebuzz",
+            "location": "Pune Division, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4117165935",
+            "status": "Simulated"
         }
     ]
 }
