@@ -1,77 +1,63 @@
 {
-    "last_updated": "2026-07-06 18:26:29",
-    "total_jobs_today": 10,
-    "total_drafts_saved": 0,
+    "last_updated": "2026-07-06 18:47:09",
+    "total_jobs_today": 8,
+    "total_drafts_saved": 8,
     "jobs": [
         {
-            "title": "Lead / Sr. Generative AI Developer with AWS",
-            "company": "EPAM Systems",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=6fdf9d7395a94ea6",
-            "status": "Simulated"
+            "title": "Software Development Engineer I",
+            "company": "Vivetha Business Consultancy",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=29c4fd013fcb08bf",
+            "status": "Draft Saved"
         },
         {
-            "title": "Systems Architect - Cloud AIOps",
-            "company": "EPAM Systems",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=2daf592b4c4ea07c",
-            "status": "Simulated"
+            "title": "Machine Learning Senior Analyst - HIH - Evernorth",
+            "company": "The Cigna Group",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=4fc346d06cfb6f02",
+            "status": "Draft Saved"
         },
         {
-            "title": "Lead / Sr. AWS Connect Developer with Salesforce Service Cloud",
-            "company": "EPAM Systems",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=630bd45c85c514a0",
-            "status": "Simulated"
+            "title": "Software Development Engineer - Fresher",
+            "company": "Gravitix Tech",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4433451931",
+            "status": "Draft Saved"
         },
         {
-            "title": "Custom Software Engineer",
-            "company": "Accenture",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=3d6ae60d790a20ee",
-            "status": "Simulated"
+            "title": "Software Development Engineer - Fresher",
+            "company": "ZYPHRA TECH",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4428471765",
+            "status": "Draft Saved"
         },
         {
-            "title": "Custom Software Engineer",
-            "company": "Accenture",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=2b45427fb850a436",
-            "status": "Simulated"
+            "title": "REACT and #.NET developer 10 years experienced",
+            "company": "Kassavirtanen Oy",
+            "location": "TN, IN",
+            "url": "https://in.indeed.com/viewjob?jk=83748a439e7be270",
+            "status": "Draft Saved"
         },
         {
-            "title": "Software Engineer",
-            "company": "hackajob",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4426965551",
-            "status": "Simulated"
+            "title": "Software Developer",
+            "company": "CodeDTX Solutions Pvt Ltd",
+            "location": "TN, IN",
+            "url": "https://in.indeed.com/viewjob?jk=7c4062c5c3a2ed88",
+            "status": "Draft Saved"
         },
         {
-            "title": "Software Engineer",
-            "company": "hackajob",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4426967569",
-            "status": "Simulated"
+            "title": "Java Fresher",
+            "company": "DigitalXNode",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4429794675",
+            "status": "Draft Saved"
         },
         {
-            "title": "Software Engineer, Backend",
-            "company": "DoorDash",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4084261319",
-            "status": "Simulated"
-        },
-        {
-            "title": "Software Engineer",
-            "company": "hackajob",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4419067740",
-            "status": "Simulated"
-        },
-        {
-            "title": "Senior Front-end Developer",
-            "company": "Easebuzz",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4117165935",
-            "status": "Simulated"
+            "title": "ANSYS Developer - Fresher/Experienced",
+            "company": "ELK Education Consultants Pvt Ltd",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4422776335",
+            "status": "Draft Saved"
         }
     ]
 }
