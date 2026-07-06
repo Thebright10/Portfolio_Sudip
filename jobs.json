@@ -1,0 +1,14 @@
+{
+    "last_updated": "2024-01-01 00:00:00",
+    "total_jobs_today": 0,
+    "total_drafts_saved": 0,
+    "jobs": [
+        {
+            "title": "Welcome to your Job Bot",
+            "company": "System Initialization",
+            "location": "Waiting for first GitHub Action run...",
+            "url": "#",
+            "status": "Pending"
+        }
+    ]
+}
