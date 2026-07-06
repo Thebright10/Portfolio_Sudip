@@ -14,7 +14,7 @@ from jobspy import scrape_jobs
 MY_NAME = "Sudip Kumar Adak"
 MY_EMAIL = "adaksudip956@gmail.com"
 PORTFOLIO_URL = "https://thebright10.github.io/Portfolio_Sudip/"
-RESUME_URL = "https://thebright10.github.io/Portfolio_Sudip/ats_resume.html"
+RESUME_URL = "https://thebright10.github.io/Portfolio_Sudip/Sudip_Kumar_Adak_Resume.pdf"
 
 # Ensure secrets are available
 GMAIL_USER = os.environ.get("GMAIL_USER")
