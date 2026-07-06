@@ -1,62 +1,48 @@
 {
-    "last_updated": "2026-07-06 18:47:09",
-    "total_jobs_today": 8,
-    "total_drafts_saved": 8,
+    "last_updated": "2026-07-06 19:02:27",
+    "total_jobs_today": 4,
+    "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Software Development Engineer I",
-            "company": "Vivetha Business Consultancy",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=29c4fd013fcb08bf",
+            "title": "AI Engineer Intern",
+            "company": "Shyena Tech Yarns Pvt Ltd",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=548f16e96ff2792b",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Trainee \u2013 Hiring Fresher\u2019s",
+            "company": "Karnex Software Solutions",
+            "location": "MH, IN",
+            "url": "https://in.indeed.com/viewjob?jk=c04a415c6459482a",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Capgemini",
+            "location": "Pune Division, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4410017874",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer I",
+            "company": "Mastercard",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4433962800",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Cold Application (Fresher)",
+            "company": "Infosys",
+            "location": "Pan India",
+            "url": "mailto:talentacquisition@infosys.com",
             "status": "Draft Saved"
         },
         {
-            "title": "Machine Learning Senior Analyst - HIH - Evernorth",
-            "company": "The Cigna Group",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=4fc346d06cfb6f02",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "Software Development Engineer - Fresher",
-            "company": "Gravitix Tech",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4433451931",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "Software Development Engineer - Fresher",
-            "company": "ZYPHRA TECH",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4428471765",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "REACT and #.NET developer 10 years experienced",
-            "company": "Kassavirtanen Oy",
-            "location": "TN, IN",
-            "url": "https://in.indeed.com/viewjob?jk=83748a439e7be270",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "Software Developer",
-            "company": "CodeDTX Solutions Pvt Ltd",
-            "location": "TN, IN",
-            "url": "https://in.indeed.com/viewjob?jk=7c4062c5c3a2ed88",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "Java Fresher",
-            "company": "DigitalXNode",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4429794675",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "ANSYS Developer - Fresher/Experienced",
-            "company": "ELK Education Consultants Pvt Ltd",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4422776335",
+            "title": "Cold Application (Fresher)",
+            "company": "Persistent Systems",
+            "location": "Pune, India",
+            "url": "mailto:careers@persistent.com",
             "status": "Draft Saved"
         }
     ]
