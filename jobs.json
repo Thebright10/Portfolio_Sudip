@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-06 19:02:27",
+    "last_updated": "2026-07-07 07:44:26",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "AI Engineer Intern",
-            "company": "Shyena Tech Yarns Pvt Ltd",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=548f16e96ff2792b",
+            "title": "Mern Full Stack Developer Internship",
+            "company": "eMoboMo Soft Pvt Ltd",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=ec73c26a2b3bf4e4",
             "status": "Apply Online"
         },
         {
-            "title": "Trainee \u2013 Hiring Fresher\u2019s",
-            "company": "Karnex Software Solutions",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=c04a415c6459482a",
+            "title": "Software Development Engineer I",
+            "company": "Vivetha Business Consultancy",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=29c4fd013fcb08bf",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Junior Software Development Engineer",
+            "company": "Redsage Global",
+            "location": "Khairatabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4431045475",
             "status": "Apply Online"
         },
         {
             "title": "Software Engineer",
-            "company": "Capgemini",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4410017874",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Engineer I",
-            "company": "Mastercard",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4433962800",
+            "company": "Infor",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4426806382",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Infosys",
+            "company": "Accenture",
             "location": "Pan India",
-            "url": "mailto:talentacquisition@infosys.com",
+            "url": "mailto:india.careers@accenture.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Persistent Systems",
-            "location": "Pune, India",
-            "url": "mailto:careers@persistent.com",
+            "company": "Capgemini",
+            "location": "Pan India",
+            "url": "mailto:recruitment.in@capgemini.com",
             "status": "Draft Saved"
         }
     ]
