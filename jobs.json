@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-07 07:44:26",
+    "last_updated": "2026-07-08 06:32:23",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Mern Full Stack Developer Internship",
-            "company": "eMoboMo Soft Pvt Ltd",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=ec73c26a2b3bf4e4",
+            "title": "Full Stack Developer (Fresher / 1+ Year Experience)",
+            "company": "Spexion Technologies",
+            "location": "GJ, IN",
+            "url": "https://in.indeed.com/viewjob?jk=93dbfb27ea73756e",
             "status": "Apply Online"
         },
         {
-            "title": "Software Development Engineer I",
-            "company": "Vivetha Business Consultancy",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=29c4fd013fcb08bf",
+            "title": "Web Designer",
+            "company": "MeghRaj TechnoSoft",
+            "location": "GJ, IN",
+            "url": "https://in.indeed.com/viewjob?jk=48bfceadef21cfe8",
             "status": "Apply Online"
         },
         {
-            "title": "Junior Software Development Engineer",
-            "company": "Redsage Global",
-            "location": "Khairatabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4431045475",
+            "title": "Software Tester Trainer",
+            "company": "ExcelPTP",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4422364050",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engineer",
-            "company": "Infor",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4426806382",
+            "title": "Embedded Software Trainee",
+            "company": "Silicon Signals Pvt. Ltd.",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4369530540",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Accenture",
+            "company": "Tech Mahindra",
             "location": "Pan India",
-            "url": "mailto:india.careers@accenture.com",
+            "url": "mailto:fresherjobs@techmahindra.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Capgemini",
-            "location": "Pan India",
-            "url": "mailto:recruitment.in@capgemini.com",
+            "company": "Zoho",
+            "location": "Chennai, India",
+            "url": "mailto:careers@zohocorp.com",
             "status": "Draft Saved"
         }
     ]
