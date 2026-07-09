@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-08 06:32:23",
+    "last_updated": "2026-07-09 07:51:08",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Full Stack Developer (Fresher / 1+ Year Experience)",
-            "company": "Spexion Technologies",
-            "location": "GJ, IN",
-            "url": "https://in.indeed.com/viewjob?jk=93dbfb27ea73756e",
+            "title": "Node.js Developer Intern",
+            "company": "V-Learning",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=3af4d3ee70ec8813",
             "status": "Apply Online"
         },
         {
-            "title": "Web Designer",
-            "company": "MeghRaj TechnoSoft",
-            "location": "GJ, IN",
-            "url": "https://in.indeed.com/viewjob?jk=48bfceadef21cfe8",
+            "title": "Flutter Developer",
+            "company": "Diginilk Solutions Software and Digital Marketing Solutions",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=949fbcbe5ec3e420",
             "status": "Apply Online"
         },
         {
-            "title": "Software Tester Trainer",
-            "company": "ExcelPTP",
+            "title": "Software Engineer (L1)",
+            "company": "AstroFarm by 42Gears",
+            "location": "Bengaluru, Karnataka, India",
+            "url": "https://www.linkedin.com/jobs/view/4429439750",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "SecPod",
             "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4422364050",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Embedded Software Trainee",
-            "company": "Silicon Signals Pvt. Ltd.",
-            "location": "Ahmedabad, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4369530540",
+            "url": "https://www.linkedin.com/jobs/view/4437018662",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Tech Mahindra",
-            "location": "Pan India",
-            "url": "mailto:fresherjobs@techmahindra.com",
+            "company": "Persistent Systems",
+            "location": "Pune, India",
+            "url": "mailto:careers@persistent.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Zoho",
-            "location": "Chennai, India",
-            "url": "mailto:careers@zohocorp.com",
+            "company": "Cognizant",
+            "location": "Pan India",
+            "url": "mailto:hrindia@cognizant.com",
             "status": "Draft Saved"
         }
     ]
