@@ -1,8 +1,15 @@
 {
-    "last_updated": "2026-07-09 07:51:08",
+    "last_updated": "2026-07-10 07:40:40",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
+        {
+            "title": "Python Full Stack Developers (AI/ML)",
+            "company": "ADML Technoservices Pvt. Ltd",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=baf839fcd2d7159e",
+            "status": "Apply Online"
+        },
         {
             "title": "Node.js Developer Intern",
             "company": "V-Learning",
@@ -11,38 +18,31 @@
             "status": "Apply Online"
         },
         {
-            "title": "Flutter Developer",
-            "company": "Diginilk Solutions Software and Digital Marketing Solutions",
-            "location": "KA, IN",
-            "url": "https://in.indeed.com/viewjob?jk=949fbcbe5ec3e420",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Engineer (L1)",
-            "company": "AstroFarm by 42Gears",
+            "title": "Junior Software Development Engineer",
+            "company": "Amadeus",
             "location": "Bengaluru, Karnataka, India",
-            "url": "https://www.linkedin.com/jobs/view/4429439750",
+            "url": "https://www.linkedin.com/jobs/view/4437383400",
             "status": "Apply Online"
         },
         {
             "title": "Software Engineer",
-            "company": "SecPod",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4437018662",
+            "company": "Capgemini",
+            "location": "Bengaluru, Karnataka, India",
+            "url": "https://www.linkedin.com/jobs/view/4438614644",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Persistent Systems",
-            "location": "Pune, India",
-            "url": "mailto:careers@persistent.com",
+            "company": "Wipro",
+            "location": "Pan India",
+            "url": "mailto:careers@wipro.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Cognizant",
-            "location": "Pan India",
-            "url": "mailto:hrindia@cognizant.com",
+            "company": "Zoho",
+            "location": "Chennai, India",
+            "url": "mailto:careers@zohocorp.com",
             "status": "Draft Saved"
         }
     ]
