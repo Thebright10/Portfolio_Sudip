@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-11 06:18:05",
+    "last_updated": "2026-07-12 06:38:39",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Programming Intern",
-            "company": "InstaCAD Solutions",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=c96a7839eca989dc",
+            "title": "Python Full Stack Developer",
+            "company": "Better Analytics Private Limited",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=8aae38adc9daf9d8",
             "status": "Apply Online"
         },
         {
-            "title": "Software Developer",
-            "company": "Nettech India",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=f360bcff25c3733b",
+            "title": "Associate Test Engineer",
+            "company": "CGLIA Solutions LLP",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=adca913cde5e963b",
             "status": "Apply Online"
         },
         {
-            "title": "Spring/springboot Developer Fresher",
-            "company": "JForce Solutions",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4410601450",
+            "title": "Software Development Engineer - Fresher",
+            "company": "Gravitix Tech",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4433451931",
             "status": "Apply Online"
         },
         {
-            "title": "Fresher - Software Development Engineer",
-            "company": "Wohlig",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4129623996",
+            "title": "Software Development Engineer - Fresher",
+            "company": "ZYPHRA TECH",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4428471765",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Accenture",
+            "company": "Capgemini",
             "location": "Pan India",
-            "url": "mailto:india.careers@accenture.com",
+            "url": "mailto:recruitment.in@capgemini.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Zoho",
-            "location": "Chennai, India",
-            "url": "mailto:careers@zohocorp.com",
+            "company": "Cognizant",
+            "location": "Pan India",
+            "url": "mailto:hrindia@cognizant.com",
             "status": "Draft Saved"
         }
     ]
