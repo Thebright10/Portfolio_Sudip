@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-12 06:38:39",
+    "last_updated": "2026-07-13 07:25:19",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Python Full Stack Developer",
-            "company": "Better Analytics Private Limited",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=8aae38adc9daf9d8",
+            "title": "Backend Developer Intern",
+            "company": "Gmaxepay Fintech Solutions Pvt Ltd",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=bb018e40ef4270c2",
             "status": "Apply Online"
         },
         {
-            "title": "Associate Test Engineer",
-            "company": "CGLIA Solutions LLP",
-            "location": "TS, IN",
-            "url": "https://in.indeed.com/viewjob?jk=adca913cde5e963b",
+            "title": "Frontend Developer Internship",
+            "company": "Gmaxepay Fintech Solutions Pvt Ltd",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=e8e2d85fde1f4ba3",
             "status": "Apply Online"
         },
         {
-            "title": "Software Development Engineer - Fresher",
-            "company": "Gravitix Tech",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4433451931",
+            "title": "Software Engineer",
+            "company": "Capgemini",
+            "location": "Bengaluru, Karnataka, India",
+            "url": "https://www.linkedin.com/jobs/view/4438614644",
             "status": "Apply Online"
         },
         {
-            "title": "Software Development Engineer - Fresher",
-            "company": "ZYPHRA TECH",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4428471765",
+            "title": "Software Engr I",
+            "company": "Honeywell Technologies",
+            "location": "Bengaluru, Karnataka, India",
+            "url": "https://www.linkedin.com/jobs/view/4342173656",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Capgemini",
+            "company": "Infosys",
             "location": "Pan India",
-            "url": "mailto:recruitment.in@capgemini.com",
+            "url": "mailto:talentacquisition@infosys.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Cognizant",
-            "location": "Pan India",
-            "url": "mailto:hrindia@cognizant.com",
+            "company": "Persistent Systems",
+            "location": "Pune, India",
+            "url": "mailto:careers@persistent.com",
             "status": "Draft Saved"
         }
     ]
