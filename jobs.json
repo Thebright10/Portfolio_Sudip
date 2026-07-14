@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-13 07:25:19",
+    "last_updated": "2026-07-14 06:15:12",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Backend Developer Intern",
-            "company": "Gmaxepay Fintech Solutions Pvt Ltd",
-            "location": "KA, IN",
-            "url": "https://in.indeed.com/viewjob?jk=bb018e40ef4270c2",
+            "title": "Junior Full Stack Developer",
+            "company": "eholler Digital Services Private Limited",
+            "location": "TN, IN",
+            "url": "https://in.indeed.com/viewjob?jk=834957ea792c4dc3",
             "status": "Apply Online"
         },
         {
-            "title": "Frontend Developer Internship",
-            "company": "Gmaxepay Fintech Solutions Pvt Ltd",
-            "location": "KA, IN",
-            "url": "https://in.indeed.com/viewjob?jk=e8e2d85fde1f4ba3",
+            "title": "Software Development Intern",
+            "company": NaN,
+            "location": "TN, IN",
+            "url": "https://in.indeed.com/viewjob?jk=85b807177758695d",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engineer",
-            "company": "Capgemini",
-            "location": "Bengaluru, Karnataka, India",
-            "url": "https://www.linkedin.com/jobs/view/4438614644",
+            "title": "Java Fresher",
+            "company": "DigitalXNode",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4429794675",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engr I",
-            "company": "Honeywell Technologies",
-            "location": "Bengaluru, Karnataka, India",
-            "url": "https://www.linkedin.com/jobs/view/4342173656",
+            "title": "ANSYS Developer - Fresher/Experienced",
+            "company": "ELK Education Consultants Pvt Ltd",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4422776335",
             "status": "Apply Online"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Infosys",
-            "location": "Pan India",
-            "url": "mailto:talentacquisition@infosys.com",
+            "company": "Zoho",
+            "location": "Chennai, India",
+            "url": "mailto:careers@zohocorp.com",
             "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
-            "company": "Persistent Systems",
-            "location": "Pune, India",
-            "url": "mailto:careers@persistent.com",
+            "company": "Wipro",
+            "location": "Pan India",
+            "url": "mailto:careers@wipro.com",
             "status": "Draft Saved"
         }
     ]
