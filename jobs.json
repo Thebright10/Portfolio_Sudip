@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-14 06:15:12",
+    "last_updated": "2026-07-15 06:19:05",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
@@ -11,38 +11,38 @@
             "status": "Apply Online"
         },
         {
-            "title": "Software Development Intern",
-            "company": NaN,
+            "title": "Automation Tester - Silicon Platform Validation",
+            "company": "HCLTech",
             "location": "TN, IN",
-            "url": "https://in.indeed.com/viewjob?jk=85b807177758695d",
+            "url": "https://in.indeed.com/viewjob?jk=b8b156a42466e8c2",
             "status": "Apply Online"
         },
         {
-            "title": "Java Fresher",
-            "company": "DigitalXNode",
+            "title": "Application Developer",
+            "company": "Capgemini",
             "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4429794675",
+            "url": "https://www.linkedin.com/jobs/view/4438206152",
             "status": "Apply Online"
         },
         {
-            "title": "ANSYS Developer - Fresher/Experienced",
-            "company": "ELK Education Consultants Pvt Ltd",
+            "title": "Software Engineer",
+            "company": "WhiteBlue",
             "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4422776335",
+            "url": "https://www.linkedin.com/jobs/view/4437666266",
             "status": "Apply Online"
-        },
-        {
-            "title": "Cold Application (Fresher)",
-            "company": "Zoho",
-            "location": "Chennai, India",
-            "url": "mailto:careers@zohocorp.com",
-            "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
             "company": "Wipro",
             "location": "Pan India",
             "url": "mailto:careers@wipro.com",
+            "status": "Draft Saved"
+        },
+        {
+            "title": "Cold Application (Fresher)",
+            "company": "Tech Mahindra",
+            "location": "Pan India",
+            "url": "mailto:fresherjobs@techmahindra.com",
             "status": "Draft Saved"
         }
     ]
