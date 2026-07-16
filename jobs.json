@@ -1,48 +1,48 @@
 {
-    "last_updated": "2026-07-15 06:19:05",
+    "last_updated": "2026-07-16 06:22:53",
     "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Junior Full Stack Developer",
-            "company": "eholler Digital Services Private Limited",
-            "location": "TN, IN",
-            "url": "https://in.indeed.com/viewjob?jk=834957ea792c4dc3",
+            "title": "Software Developer Trainee | 2026 Passouts",
+            "company": "TechMonastic Solutions Pvt. Ltd.",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=ba7995897efb9dd5",
             "status": "Apply Online"
         },
         {
-            "title": "Automation Tester - Silicon Platform Validation",
-            "company": "HCLTech",
-            "location": "TN, IN",
-            "url": "https://in.indeed.com/viewjob?jk=b8b156a42466e8c2",
+            "title": "Junior Developer",
+            "company": "Trishoolin Technology",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=cac1a10e92b02a03",
             "status": "Apply Online"
         },
         {
-            "title": "Application Developer",
-            "company": "Capgemini",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4438206152",
+            "title": "B.Sc/M.Sc Graduates from WEST BENGAL Only: SigiloTech\u2019s Paid Internship-to-Full-Time Opportunity!",
+            "company": "SigiloTech",
+            "location": "Kolkata metropolitan area, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4400700762",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engineer",
-            "company": "WhiteBlue",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4437666266",
+            "title": "Jr. Python Developer",
+            "company": "BAAR Technologies",
+            "location": "Kolkata, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4331755524",
             "status": "Apply Online"
+        },
+        {
+            "title": "Cold Application (Fresher)",
+            "company": "Persistent Systems",
+            "location": "Pune, India",
+            "url": "mailto:careers@persistent.com",
+            "status": "Draft Saved"
         },
         {
             "title": "Cold Application (Fresher)",
             "company": "Wipro",
             "location": "Pan India",
             "url": "mailto:careers@wipro.com",
-            "status": "Draft Saved"
-        },
-        {
-            "title": "Cold Application (Fresher)",
-            "company": "Tech Mahindra",
-            "location": "Pan India",
-            "url": "mailto:fresherjobs@techmahindra.com",
             "status": "Draft Saved"
         }
     ]
