@@ -37,6 +37,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs.json
+          git add jobs.json job_history.json
           # Only commit if there are changes to jobs.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily jobs data" && git push)
