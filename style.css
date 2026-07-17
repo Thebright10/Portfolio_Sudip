@@ -645,6 +645,35 @@ a {
   gap: 8px;
 }
 
+.hero-internship-badge {
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  padding: 10px 18px;
+  background: rgba(6, 10, 19, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--accent-green);
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
+  animation: float 5s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .hero-internship-badge {
+    left: -10px;
+    top: 20px;
+    font-size: 11px;
+    padding: 8px 14px;
+  }
+}
+
 .hero-scroll {
   position: absolute;
   bottom: 36px;
