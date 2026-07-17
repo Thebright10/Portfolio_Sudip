@@ -102,6 +102,21 @@ def create_resume():
     pdf.cell(0, 5, 'Git, GitHub, VS Code, REST APIs', ln=1)
     pdf.ln(5)
     
+    # --- EXPERIENCE ---
+    pdf.set_font('Helvetica', 'B', 12)
+    pdf.cell(0, 6, 'EXPERIENCE', ln=True, border='B')
+    pdf.ln(2)
+    
+    pdf.set_font('Helvetica', 'B', 11)
+    pdf.cell(140, 5, 'Technical Support Intern', ln=0)
+    pdf.set_font('Helvetica', '', 11)
+    pdf.cell(0, 5, 'Apr 2026 - Jul 2026', ln=1, align='R')
+    pdf.set_font('Helvetica', 'I', 11)
+    pdf.cell(0, 5, 'Hyrex Solutions, Howrah, West Bengal', ln=1)
+    pdf.set_font('Helvetica', '', 11)
+    pdf.multi_cell(0, 5, '- Provided first-level technical support and troubleshooting assistance to clients and internal teams.\n- Logged, tracked, and resolved support tickets in a timely and professional manner.\n- Assisted in diagnosing software, application, and connectivity issues, escalating complex cases as needed.\n- Documented recurring issues and solutions to help build an internal knowledge base.')
+    pdf.ln(5)
+    
     # --- PROJECTS ---
     pdf.set_font('Helvetica', 'B', 12)
     pdf.cell(0, 6, 'PROJECTS', ln=True, border='B')
