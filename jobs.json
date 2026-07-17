@@ -1,83 +1,48 @@
 {
-    "last_updated": "2026-07-17 19:56:15",
-    "total_jobs_today": 9,
+    "last_updated": "2026-07-17 20:17:52",
+    "total_jobs_today": 4,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Jr. PHP Developer",
-            "company": "Skydot Infotech",
-            "location": "GJ, IN",
-            "url": "https://in.indeed.com/viewjob?jk=9c925bcce0653f6f",
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=e8982ff3dd96d227",
             "status": "Apply Online"
         },
         {
-            "title": "Software Developer 3",
-            "company": "Oracle",
-            "location": "Ahmedabad, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4438731704",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Developer 2",
-            "company": "Oracle",
-            "location": "Ahmedabad, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4417237287",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Developer - WPF",
-            "company": "T\u00dcV S\u00dcD",
-            "location": "Matar, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4433941135",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Developer",
-            "company": "Allied Mineral Products",
-            "location": "Ahmedabad, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4399812319",
+            "title": "Full Stack Software Developer",
+            "company": "ArthONE",
+            "location": "Kolkata, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4438916041",
             "status": "Apply Online"
         },
         {
             "title": "Custom Software Engineer",
             "company": "Accenture in India",
-            "location": "Ahmedabad, Gujarat, India",
-            "url": "https://www.linkedin.com/jobs/view/4361289422",
+            "location": "Kolkata, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4437126549",
             "status": "Apply Online"
         },
         {
-            "title": "Entry Level Software Engineer",
-            "company": "Medpace",
-            "location": "Navi Mumbai, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4383545434",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Developer Engineer \u2013 SCG India",
-            "company": "SCG",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4297845079",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Junior JavaScript Developer - Remote work | REF#283751",
-            "company": "BairesDev",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4258061542",
+            "title": "Custom Software Engineer",
+            "company": "Accenture in India",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4433898229",
             "status": "Apply Online"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Dream11",
-            "location": "Mumbai, India",
-            "url": "mailto:careers@dream11.com",
+            "company": "Zerodha",
+            "location": "Bangalore, India",
+            "url": "mailto:careers@zerodha.com",
             "status": "Draft Saved"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Zomato",
-            "location": "Pan India",
-            "url": "mailto:careers@zomato.com",
+            "company": "Cred",
+            "location": "Bangalore, India",
+            "url": "mailto:careers@cred.club",
             "status": "Draft Saved"
         }
     ]
