@@ -64,6 +64,7 @@ window.addEventListener('scroll', updateActiveNav);
 const typingTexts = [
   'Software Developer',
   'MCA Student',
+  'Technical Support Intern',
   'Web Developer',
   'AI / ML Enthusiast',
   'Data Analyst',
