@@ -1,27 +1,55 @@
 {
-    "last_updated": "2026-07-17 06:21:03",
-    "total_jobs_today": 4,
+    "last_updated": "2026-07-17 19:56:15",
+    "total_jobs_today": 9,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Job Description \u2013 Software Developer / Data Analyst (Fresher)",
-            "company": "LAXAR",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=21f8a0fdb2bf2162",
+            "title": "Jr. PHP Developer",
+            "company": "Skydot Infotech",
+            "location": "GJ, IN",
+            "url": "https://in.indeed.com/viewjob?jk=9c925bcce0653f6f",
             "status": "Apply Online"
         },
         {
-            "title": "Desktop Support Engineer",
-            "company": "WP Translation and Testing Services Pvt Ltd",
-            "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=309cc57cef8c599f",
+            "title": "Software Developer 3",
+            "company": "Oracle",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4438731704",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engineer",
-            "company": "Capgemini",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4388394922",
+            "title": "Software Developer 2",
+            "company": "Oracle",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4417237287",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer - WPF",
+            "company": "T\u00dcV S\u00dcD",
+            "location": "Matar, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4433941135",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer",
+            "company": "Allied Mineral Products",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4399812319",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture in India",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4361289422",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Entry Level Software Engineer",
+            "company": "Medpace",
+            "location": "Navi Mumbai, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4383545434",
             "status": "Apply Online"
         },
         {
@@ -32,17 +60,24 @@
             "status": "Apply Online"
         },
         {
-            "title": "Cold Application (Fresher)",
-            "company": "Tech Mahindra",
-            "location": "Pan India",
-            "url": "mailto:fresherjobs@techmahindra.com",
+            "title": "Junior JavaScript Developer - Remote work | REF#283751",
+            "company": "BairesDev",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4258061542",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Startup Cold Application",
+            "company": "Dream11",
+            "location": "Mumbai, India",
+            "url": "mailto:careers@dream11.com",
             "status": "Draft Saved"
         },
         {
-            "title": "Cold Application (Fresher)",
-            "company": "Wipro",
+            "title": "Startup Cold Application",
+            "company": "Zomato",
             "location": "Pan India",
-            "url": "mailto:careers@wipro.com",
+            "url": "mailto:careers@zomato.com",
             "status": "Draft Saved"
         }
     ]
