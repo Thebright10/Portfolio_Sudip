@@ -43,7 +43,114 @@
                 "url": "mailto:careers@cred.club",
                 "status": "Draft Saved"
             }
+        ],
+        "2026-07-18": [
+            {
+                "title": "Software Developer",
+                "company": "Hyland",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4440571453",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Teradata",
+                "location": "Hyderabad, Telangana, India",
+                "url": "https://www.linkedin.com/jobs/view/4326661453",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer, Infrastructure",
+                "company": "Notion",
+                "location": "Hyderabad, Telangana, India",
+                "url": "https://www.linkedin.com/jobs/view/4418917903",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Development Engineer - Fresher",
+                "company": "Gravitix Tech",
+                "location": "Hyderabad, Telangana, India",
+                "url": "https://www.linkedin.com/jobs/view/4433451931",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer, Developer Experience",
+                "company": "Notion",
+                "location": "Hyderabad, Telangana, India",
+                "url": "https://www.linkedin.com/jobs/view/4375460799",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture",
+                "location": "WB, IN",
+                "url": "https://in.indeed.com/viewjob?jk=ca8e66dc597a6945",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture",
+                "location": "WB, IN",
+                "url": "https://in.indeed.com/viewjob?jk=e8982ff3dd96d227",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Associate",
+                "company": "PwC India",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4291066591",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Associate",
+                "company": "PwC India",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4291065685",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Junior JavaScript Developer - Remote work | REF#283759",
+                "company": "BairesDev",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4258067047",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Junior JavaScript Developer - Remote work | REF#283758",
+                "company": "BairesDev",
+                "location": "Haora, West Bengal, India",
+                "url": "https://www.linkedin.com/jobs/view/4258067056",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Associate",
+                "company": "PwC India",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4291068103",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Associate",
+                "company": "PwC India",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4291063799",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Pine Labs",
+                "location": "Pune/Mumbai, India",
+                "url": "mailto:careers@pinelabs.com",
+                "status": "Draft Saved"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Dream11",
+                "location": "Mumbai, India",
+                "url": "mailto:careers@dream11.com",
+                "status": "Draft Saved"
+            }
         ]
     },
-    "last_updated": "2026-07-17 20:17:52"
+    "last_updated": "2026-07-18 06:08:57"
 }

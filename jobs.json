@@ -1,8 +1,50 @@
 {
-    "last_updated": "2026-07-17 20:17:52",
-    "total_jobs_today": 4,
+    "last_updated": "2026-07-18 06:08:57",
+    "total_jobs_today": 13,
     "total_drafts_saved": 2,
     "jobs": [
+        {
+            "title": "Software Developer",
+            "company": "Hyland",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4440571453",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Teradata",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4326661453",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer, Infrastructure",
+            "company": "Notion",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4418917903",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Development Engineer - Fresher",
+            "company": "Gravitix Tech",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4433451931",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineer, Developer Experience",
+            "company": "Notion",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4375460799",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=ca8e66dc597a6945",
+            "status": "Apply Online"
+        },
         {
             "title": "Custom Software Engineer",
             "company": "Accenture",
@@ -11,38 +53,59 @@
             "status": "Apply Online"
         },
         {
-            "title": "Full Stack Software Developer",
-            "company": "ArthONE",
-            "location": "Kolkata, West Bengal, India",
-            "url": "https://www.linkedin.com/jobs/view/4438916041",
+            "title": "Associate",
+            "company": "PwC India",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4291066591",
             "status": "Apply Online"
         },
         {
-            "title": "Custom Software Engineer",
-            "company": "Accenture in India",
-            "location": "Kolkata, West Bengal, India",
-            "url": "https://www.linkedin.com/jobs/view/4437126549",
+            "title": "Associate",
+            "company": "PwC India",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4291065685",
             "status": "Apply Online"
         },
         {
-            "title": "Custom Software Engineer",
-            "company": "Accenture in India",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4433898229",
+            "title": "Junior JavaScript Developer - Remote work | REF#283759",
+            "company": "BairesDev",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4258067047",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Junior JavaScript Developer - Remote work | REF#283758",
+            "company": "BairesDev",
+            "location": "Haora, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4258067056",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Associate",
+            "company": "PwC India",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4291068103",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Associate",
+            "company": "PwC India",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4291063799",
             "status": "Apply Online"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Zerodha",
-            "location": "Bangalore, India",
-            "url": "mailto:careers@zerodha.com",
+            "company": "Pine Labs",
+            "location": "Pune/Mumbai, India",
+            "url": "mailto:careers@pinelabs.com",
             "status": "Draft Saved"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Cred",
-            "location": "Bangalore, India",
-            "url": "mailto:careers@cred.club",
+            "company": "Dream11",
+            "location": "Mumbai, India",
+            "url": "mailto:careers@dream11.com",
             "status": "Draft Saved"
         }
     ]
