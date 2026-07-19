@@ -1,111 +1,55 @@
 {
-    "last_updated": "2026-07-18 06:08:57",
-    "total_jobs_today": 13,
+    "last_updated": "2026-07-19 06:34:40",
+    "total_jobs_today": 5,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Software Developer",
-            "company": "Hyland",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4440571453",
+            "title": "Backend Engineer - Intern",
+            "company": "Astiva AI",
+            "location": "KA, IN",
+            "url": "https://in.indeed.com/viewjob?jk=b27ef48eeb6de6c3",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture in India",
+            "location": "Bengaluru, Karnataka, India",
+            "url": "https://www.linkedin.com/jobs/view/4361045065",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture in India",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4433523968",
             "status": "Apply Online"
         },
         {
             "title": "Software Engineer",
-            "company": "Teradata",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4326661453",
+            "company": "Wilhelmsen Port Services",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4421830026",
             "status": "Apply Online"
         },
         {
-            "title": "Software Engineer, Infrastructure",
-            "company": "Notion",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4418917903",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Development Engineer - Fresher",
-            "company": "Gravitix Tech",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4433451931",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Software Engineer, Developer Experience",
-            "company": "Notion",
-            "location": "Hyderabad, Telangana, India",
-            "url": "https://www.linkedin.com/jobs/view/4375460799",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Custom Software Engineer",
-            "company": "Accenture",
-            "location": "WB, IN",
-            "url": "https://in.indeed.com/viewjob?jk=ca8e66dc597a6945",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Custom Software Engineer",
-            "company": "Accenture",
-            "location": "WB, IN",
-            "url": "https://in.indeed.com/viewjob?jk=e8982ff3dd96d227",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Associate",
-            "company": "PwC India",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4291066591",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Associate",
-            "company": "PwC India",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4291065685",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Junior JavaScript Developer - Remote work | REF#283759",
-            "company": "BairesDev",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4258067047",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Junior JavaScript Developer - Remote work | REF#283758",
-            "company": "BairesDev",
-            "location": "Haora, West Bengal, India",
-            "url": "https://www.linkedin.com/jobs/view/4258067056",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Associate",
-            "company": "PwC India",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4291068103",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Associate",
-            "company": "PwC India",
-            "location": "",
-            "url": "https://www.linkedin.com/jobs/view/4291063799",
+            "title": "Software Developer II",
+            "company": "Tech Data APAC",
+            "location": "Chennai, Tamil Nadu, India",
+            "url": "https://www.linkedin.com/jobs/view/4426885463",
             "status": "Apply Online"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Pine Labs",
-            "location": "Pune/Mumbai, India",
-            "url": "mailto:careers@pinelabs.com",
+            "company": "Postman",
+            "location": "Bangalore, India",
+            "url": "mailto:careers@postman.com",
             "status": "Draft Saved"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Dream11",
-            "location": "Mumbai, India",
-            "url": "mailto:careers@dream11.com",
+            "company": "Groww",
+            "location": "Bangalore, India",
+            "url": "mailto:careers@groww.in",
             "status": "Draft Saved"
         }
     ]

@@ -150,7 +150,58 @@
                 "url": "mailto:careers@dream11.com",
                 "status": "Draft Saved"
             }
+        ],
+        "2026-07-19": [
+            {
+                "title": "Backend Engineer - Intern",
+                "company": "Astiva AI",
+                "location": "KA, IN",
+                "url": "https://in.indeed.com/viewjob?jk=b27ef48eeb6de6c3",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Bengaluru, Karnataka, India",
+                "url": "https://www.linkedin.com/jobs/view/4361045065",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Chennai, Tamil Nadu, India",
+                "url": "https://www.linkedin.com/jobs/view/4433523968",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Wilhelmsen Port Services",
+                "location": "Chennai, Tamil Nadu, India",
+                "url": "https://www.linkedin.com/jobs/view/4421830026",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer II",
+                "company": "Tech Data APAC",
+                "location": "Chennai, Tamil Nadu, India",
+                "url": "https://www.linkedin.com/jobs/view/4426885463",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Postman",
+                "location": "Bangalore, India",
+                "url": "mailto:careers@postman.com",
+                "status": "Draft Saved"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Groww",
+                "location": "Bangalore, India",
+                "url": "mailto:careers@groww.in",
+                "status": "Draft Saved"
+            }
         ]
     },
-    "last_updated": "2026-07-18 06:08:57"
+    "last_updated": "2026-07-19 06:34:40"
 }
