@@ -201,7 +201,93 @@
                 "url": "mailto:careers@groww.in",
                 "status": "Draft Saved"
             }
+        ],
+        "2026-07-20": [
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture",
+                "location": "WB, IN",
+                "url": "https://in.indeed.com/viewjob?jk=ca8e66dc597a6945",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture",
+                "location": "WB, IN",
+                "url": "https://in.indeed.com/viewjob?jk=e8982ff3dd96d227",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Kolkata, West Bengal, India",
+                "url": "https://www.linkedin.com/jobs/view/4437126549",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer II",
+                "company": "SEI",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4416255422",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Meazure Learning",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4369702381",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Ahmedabad, Gujarat, India",
+                "url": "https://www.linkedin.com/jobs/view/4361289422",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer 3",
+                "company": "Oracle",
+                "location": "Ahmedabad, Gujarat, India",
+                "url": "https://www.linkedin.com/jobs/view/4438731704",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer 2",
+                "company": "Oracle",
+                "location": "Ahmedabad, Gujarat, India",
+                "url": "https://www.linkedin.com/jobs/view/4417237287",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer - WPF",
+                "company": "T\u00dcV S\u00dcD",
+                "location": "Matar, Gujarat, India",
+                "url": "https://www.linkedin.com/jobs/view/4433941135",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer",
+                "company": "Allied Mineral Products",
+                "location": "Ahmedabad, Gujarat, India",
+                "url": "https://www.linkedin.com/jobs/view/4399812319",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Zerodha",
+                "location": "Bangalore, India",
+                "url": "mailto:careers@zerodha.com",
+                "status": "Draft Saved"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Cred",
+                "location": "Bangalore, India",
+                "url": "mailto:careers@cred.club",
+                "status": "Draft Saved"
+            }
         ]
     },
-    "last_updated": "2026-07-19 06:34:40"
+    "last_updated": "2026-07-20 06:51:36"
 }

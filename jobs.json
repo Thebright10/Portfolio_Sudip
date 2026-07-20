@@ -1,55 +1,90 @@
 {
-    "last_updated": "2026-07-19 06:34:40",
-    "total_jobs_today": 5,
+    "last_updated": "2026-07-20 06:51:36",
+    "total_jobs_today": 10,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Backend Engineer - Intern",
-            "company": "Astiva AI",
-            "location": "KA, IN",
-            "url": "https://in.indeed.com/viewjob?jk=b27ef48eeb6de6c3",
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=ca8e66dc597a6945",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Custom Software Engineer",
+            "company": "Accenture",
+            "location": "WB, IN",
+            "url": "https://in.indeed.com/viewjob?jk=e8982ff3dd96d227",
             "status": "Apply Online"
         },
         {
             "title": "Custom Software Engineer",
             "company": "Accenture in India",
-            "location": "Bengaluru, Karnataka, India",
-            "url": "https://www.linkedin.com/jobs/view/4361045065",
+            "location": "Kolkata, West Bengal, India",
+            "url": "https://www.linkedin.com/jobs/view/4437126549",
             "status": "Apply Online"
         },
         {
-            "title": "Custom Software Engineer",
-            "company": "Accenture in India",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4433523968",
+            "title": "Software Engineer II",
+            "company": "SEI",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4416255422",
             "status": "Apply Online"
         },
         {
             "title": "Software Engineer",
-            "company": "Wilhelmsen Port Services",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4421830026",
+            "company": "Meazure Learning",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4369702381",
             "status": "Apply Online"
         },
         {
-            "title": "Software Developer II",
-            "company": "Tech Data APAC",
-            "location": "Chennai, Tamil Nadu, India",
-            "url": "https://www.linkedin.com/jobs/view/4426885463",
+            "title": "Custom Software Engineer",
+            "company": "Accenture in India",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4361289422",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer 3",
+            "company": "Oracle",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4438731704",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer 2",
+            "company": "Oracle",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4417237287",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer - WPF",
+            "company": "T\u00dcV S\u00dcD",
+            "location": "Matar, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4433941135",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Developer",
+            "company": "Allied Mineral Products",
+            "location": "Ahmedabad, Gujarat, India",
+            "url": "https://www.linkedin.com/jobs/view/4399812319",
             "status": "Apply Online"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Postman",
+            "company": "Zerodha",
             "location": "Bangalore, India",
-            "url": "mailto:careers@postman.com",
+            "url": "mailto:careers@zerodha.com",
             "status": "Draft Saved"
         },
         {
             "title": "Startup Cold Application",
-            "company": "Groww",
+            "company": "Cred",
             "location": "Bangalore, India",
-            "url": "mailto:careers@groww.in",
+            "url": "mailto:careers@cred.club",
             "status": "Draft Saved"
         }
     ]
