@@ -287,7 +287,72 @@
                 "url": "mailto:careers@cred.club",
                 "status": "Draft Saved"
             }
+        ],
+        "2026-07-21": [
+            {
+                "title": "DevOps Engineer",
+                "company": "Freightgain online technologies private limited",
+                "location": "MH, IN",
+                "url": "https://in.indeed.com/viewjob?jk=61c5af9de80e9453",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4334450949",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Navi Mumbai, Maharashtra, India",
+                "url": "https://www.linkedin.com/jobs/view/4362724520",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Engineer Specialist",
+                "company": "Nasdaq",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4341580102",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer",
+                "company": "Bahwan CyberTek",
+                "location": "",
+                "url": "https://www.linkedin.com/jobs/view/4431074887",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Software Developer \u2013 2D Generalist",
+                "company": "DNEG",
+                "location": "Mumbai, Maharashtra, India",
+                "url": "https://www.linkedin.com/jobs/view/4404920725",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Custom Software Engineer",
+                "company": "Accenture in India",
+                "location": "Bengaluru, Karnataka, India",
+                "url": "https://www.linkedin.com/jobs/view/4361045065",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Zerodha",
+                "location": "Bangalore, India",
+                "url": "mailto:careers@zerodha.com",
+                "status": "Draft Saved"
+            },
+            {
+                "title": "Startup Cold Application",
+                "company": "Dream11",
+                "location": "Mumbai, India",
+                "url": "mailto:careers@dream11.com",
+                "status": "Draft Saved"
+            }
         ]
     },
-    "last_updated": "2026-07-20 06:51:36"
+    "last_updated": "2026-07-21 06:33:16"
 }
