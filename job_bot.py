@@ -24,7 +24,7 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 
 # Target cities for fresher jobs
 TARGET_CITIES = ["Pune, India", "Mumbai, India", "Bangalore, India", "Chennai, India", "Hyderabad, India", "Kolkata, India", "Ahmedabad, India"]
-SEARCH_TERM = "Software Developer"
+SEARCH_TERM = "Fresher Software Developer"
 NUM_JOBS_PER_CITY = 2 # Keep small to avoid rate limits
 
 # Target startups for cold emailing
@@ -45,20 +45,24 @@ def is_genuine_fresher_job(title, description):
     title_lower = title.lower()
     desc_lower = str(description).lower()
     
-    # Exclude keywords
-    exclude_words = ["senior", "sr", "lead", "manager", "staff", "principal", "director", "head", "architect", "5+ years", "4+ years", "3+ years", "experienced"]
+    # Exclude keywords (extremely strict against experience requirements)
+    exclude_words = [
+        "senior", "sr", "lead", "manager", "staff", "principal", "director", "head", "architect",
+        "5+ years", "4+ years", "3+ years", "2+ years", "1+ years", "1+ year", "2+ year",
+        "2 years", "3 years", "4 years", "5 years", "1-3 years", "2-4 years", "3-5 years",
+        "minimum 1 year", "minimum 2 year", "experienced", "experience required"
+    ]
     for word in exclude_words:
         if word in title_lower or word in desc_lower:
             return False
             
-    # Include keywords (optional strictly, but good for scoring)
-    # If it passes the exclusion, it's generally safe. Let's strictly require 'fresher', 'junior', 'entry', '0-1', '0-2', or 'associate'
-    include_words = ["fresher", "junior", "jr", "entry level", "entry-level", "0-1 year", "0-2 year", "associate", "intern", "trainee", "graduate"]
-    if any(word in title_lower or word in desc_lower for word in include_words):
+    # Must explicitly mention fresher or entry level to be safe
+    include_words = ["fresher", "junior", "jr", "entry level", "entry-level", "0-1 year", "0-2 year", "associate", "intern", "trainee", "graduate", "0 years"]
+    if any(word in title_lower for word in include_words):
         return True
         
-    # If title is just plain "Software Developer" without senior tags, we can accept it
-    if "software developer" in title_lower or "software engineer" in title_lower:
+    # Also check description if title doesn't have it
+    if any(word in desc_lower for word in include_words):
         return True
         
     return False
