@@ -290,59 +290,38 @@
         ],
         "2026-07-21": [
             {
-                "title": "DevOps Engineer",
-                "company": "Freightgain online technologies private limited",
+                "title": "Graduate Engineer Trainee",
+                "company": "Jobgenix",
+                "location": "Kolkata, West Bengal, India",
+                "url": "https://www.linkedin.com/jobs/view/4439653002",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Jr. Python Developer",
+                "company": "BAAR Technologies",
+                "location": "Kolkata, West Bengal, India",
+                "url": "https://www.linkedin.com/jobs/view/4331755524",
+                "status": "Apply Online"
+            },
+            {
+                "title": "Fresher Web Developer",
+                "company": NaN,
                 "location": "MH, IN",
-                "url": "https://in.indeed.com/viewjob?jk=61c5af9de80e9453",
+                "url": "https://in.indeed.com/viewjob?jk=fce310d4a66fffb9",
                 "status": "Apply Online"
             },
             {
-                "title": "Custom Software Engineer",
-                "company": "Accenture in India",
-                "location": "",
-                "url": "https://www.linkedin.com/jobs/view/4334450949",
-                "status": "Apply Online"
-            },
-            {
-                "title": "Custom Software Engineer",
-                "company": "Accenture in India",
-                "location": "Navi Mumbai, Maharashtra, India",
-                "url": "https://www.linkedin.com/jobs/view/4362724520",
-                "status": "Apply Online"
-            },
-            {
-                "title": "Software Engineer Specialist",
-                "company": "Nasdaq",
-                "location": "",
-                "url": "https://www.linkedin.com/jobs/view/4341580102",
-                "status": "Apply Online"
-            },
-            {
-                "title": "Software Developer",
-                "company": "Bahwan CyberTek",
-                "location": "",
-                "url": "https://www.linkedin.com/jobs/view/4431074887",
-                "status": "Apply Online"
-            },
-            {
-                "title": "Software Developer \u2013 2D Generalist",
-                "company": "DNEG",
-                "location": "Mumbai, Maharashtra, India",
-                "url": "https://www.linkedin.com/jobs/view/4404920725",
-                "status": "Apply Online"
-            },
-            {
-                "title": "Custom Software Engineer",
-                "company": "Accenture in India",
-                "location": "Bengaluru, Karnataka, India",
-                "url": "https://www.linkedin.com/jobs/view/4361045065",
+                "title": "Junior Engineer",
+                "company": "Cornerstone OnDemand",
+                "location": "Pune Division, Maharashtra, India",
+                "url": "https://www.linkedin.com/jobs/view/4437781499",
                 "status": "Apply Online"
             },
             {
                 "title": "Startup Cold Application",
-                "company": "Zerodha",
+                "company": "Razorpay",
                 "location": "Bangalore, India",
-                "url": "mailto:careers@zerodha.com",
+                "url": "mailto:jobs@razorpay.com",
                 "status": "Draft Saved"
             },
             {
@@ -354,5 +333,5 @@
             }
         ]
     },
-    "last_updated": "2026-07-21 06:33:16"
+    "last_updated": "2026-07-21 16:15:31"
 }
