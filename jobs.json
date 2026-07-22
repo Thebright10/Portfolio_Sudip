@@ -1,48 +1,76 @@
 {
-    "last_updated": "2026-07-21 16:15:31",
-    "total_jobs_today": 4,
+    "last_updated": "2026-07-22 06:33:30",
+    "total_jobs_today": 8,
     "total_drafts_saved": 2,
     "jobs": [
         {
-            "title": "Graduate Engineer Trainee",
-            "company": "Jobgenix",
-            "location": "Kolkata, West Bengal, India",
-            "url": "https://www.linkedin.com/jobs/view/4439653002",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Jr. Python Developer",
-            "company": "BAAR Technologies",
-            "location": "Kolkata, West Bengal, India",
-            "url": "https://www.linkedin.com/jobs/view/4331755524",
-            "status": "Apply Online"
-        },
-        {
-            "title": "Fresher Web Developer",
-            "company": NaN,
+            "title": "Application Support Engineer - Fresher",
+            "company": "Kyzer Software",
             "location": "MH, IN",
-            "url": "https://in.indeed.com/viewjob?jk=fce310d4a66fffb9",
+            "url": "https://in.indeed.com/viewjob?jk=96c82fd53f302133",
             "status": "Apply Online"
         },
         {
-            "title": "Junior Engineer",
-            "company": "Cornerstone OnDemand",
-            "location": "Pune Division, Maharashtra, India",
-            "url": "https://www.linkedin.com/jobs/view/4437781499",
+            "title": "Entry Level Software Engineer",
+            "company": "Medpace",
+            "location": "Navi Mumbai, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4383545434",
             "status": "Apply Online"
         },
         {
-            "title": "Startup Cold Application",
-            "company": "Razorpay",
-            "location": "Bangalore, India",
-            "url": "mailto:jobs@razorpay.com",
-            "status": "Draft Saved"
+            "title": "Software Developer-Fresher",
+            "company": "WonderBiz Technologies Pvt.",
+            "location": "Thane, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4437681007",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Engineering Trainee",
+            "company": "DigitalXNode",
+            "location": "Mumbai, Maharashtra, India",
+            "url": "https://www.linkedin.com/jobs/view/4416630313",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Fresher - Software Development Engineer",
+            "company": "Wohlig",
+            "location": "",
+            "url": "https://www.linkedin.com/jobs/view/4129623996",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Associate Test Engineer",
+            "company": "CGLIA Solutions LLP",
+            "location": "TS, IN",
+            "url": "https://in.indeed.com/viewjob?jk=adca913cde5e963b",
+            "status": "Apply Online"
+        },
+        {
+            "title": "Software Development Engineer - Fresher",
+            "company": "Gravitix Tech",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4433451931",
+            "status": "Apply Online"
+        },
+        {
+            "title": "SOFTWARE ENGINEER - FRESHER",
+            "company": "Inceptionway",
+            "location": "Hyderabad, Telangana, India",
+            "url": "https://www.linkedin.com/jobs/view/4443528696",
+            "status": "Apply Online"
         },
         {
             "title": "Startup Cold Application",
             "company": "Dream11",
             "location": "Mumbai, India",
             "url": "mailto:careers@dream11.com",
+            "status": "Draft Saved"
+        },
+        {
+            "title": "Startup Cold Application",
+            "company": "Zomato",
+            "location": "Pan India",
+            "url": "mailto:careers@zomato.com",
             "status": "Draft Saved"
         }
     ]
